@@ -1,10 +1,5 @@
 let value = 0;
-void setup(){
-  createCanvas(600, 600);
-  background(0);
-}
-void draw(){
-  background(0);
+function draw() {
   fill(value);
   rect(25, 25, 50, 50);
 }
